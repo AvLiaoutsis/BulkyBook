@@ -5,9 +5,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Bulky_Book.Models;
+using BulkyBook.Models;
+using BulkyBook.Models.ViewModels;
 
-namespace Bulky_Book.Controllers
+namespace BulkyBook.Controllers
 {
     public class HomeController : Controller
     {
