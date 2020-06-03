@@ -72,6 +72,7 @@ namespace BulkyBook.Areas.Admin.Controllers
         {
             var AllObj = _unitOfWork.Product.GetAll(includeProperties:"Category,CoverType");
             return Json(new { data = AllObj });
+
         }
 
         [HttpPost]
